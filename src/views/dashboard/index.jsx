@@ -20,13 +20,14 @@ import avatar1 from '../../assets/images/user/avatar-1.jpg';
 import imgGrid1 from '../../assets/images/gallery-grid/img-grd-gal-1.jpg';
 import imgGrid2 from '../../assets/images/gallery-grid/img-grd-gal-2.jpg';
 import imgGrid3 from '../../assets/images/gallery-grid/img-grd-gal-3.jpg';
+import { HEADER_BACK_COLOR } from 'store/actions';
 
 // ==============================|| DASHBOARD ANALYTICS ||============================== //
 
 const DashAnalytics = () => {
   return (
     <React.Fragment>
-      <Row>
+      <Row style={{backgroundColor:"black"}}>
         {/* order cards */}
         <Col md={6} xl={3}>
           <OrderCard
